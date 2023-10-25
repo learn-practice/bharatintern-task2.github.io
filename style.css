@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100vh;
+    width: 100vw;
+} */
+.box
+{
+    height: 100vh;
+    /* border: 1px solid lightgray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-box
+{
+    width: 35%;
+    border-radius: 5px;
+    height: fit-content;
+    border: 1px solid gray;
+    padding: 20px;
+    /* position: relative; */
+    background-color: rgb(237, 237, 237);
+}
+.celsius,.fahrenheit,.kelvin
+{
+    position: relative;
+    text-transform: capitalize;
+    font-size: .6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 57, 57);
+    margin: 10px 0px;
+    display: flex;
+    line-height: 30px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.main
+{
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main h1{
+    font-size: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main i{
+    background-color: rgb(166, 166, 166);
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 1px solid gray;
+    font-size: 1.4em;
+    /* color:; */
+    text-align: center;
+}
+.main i:hover
+{
+    color: white;
+}
+.sub-box input
+{
+    position: absolute;
+    left: 30%;
+    font-size: 1.7em;
+    /* margin-bottom: 5px; */
+    /* gap: 10px; */
+    height: 30px;
+    width: 70%;
+    align-self: flex-end;
+    
+}
+.sub-box input:focus
+{
+    outline: none;
+}
