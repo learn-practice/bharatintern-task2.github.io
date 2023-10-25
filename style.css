@@ -81,3 +81,25 @@
 {
     outline: none;
 }
+
+@media screen and (min-height:900px) {
+    .sub-box
+    {
+        width: 80%;
+    } 
+}
+@media screen and (min-height:300px) 
+{
+    .sub-box
+    {
+        width: 90%;
+    } 
+    .main h1{
+        font-size: 1.2em;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    }
+    .celsius,.fahrenheit,.kelvin
+    {
+        font-size: .5em;
+    }
+}
